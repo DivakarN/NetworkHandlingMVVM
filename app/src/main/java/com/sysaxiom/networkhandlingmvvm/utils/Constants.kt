@@ -2,7 +2,7 @@ package com.sysaxiom.networkhandlingmvvm.utils
 
 object UrlsFields {
 
-    const val BaseURL = "https://spotrush.in/api/v1/"
+    const val BaseURL = ""
     const val ID = "id"
     const val LAT = "lat"
     const val LON = "lon"
@@ -14,10 +14,10 @@ object UrlsFields {
     const val GET_APPOINTMENT = "patient/getAppointment"
     const val MAXIMUM_TIMEOUT = 90
     const val NO_INTERNET_CONNECTTION = "No Internet Connecttion"
-    const val MQTT_DEV : String = "wss://spotrush.in:8084/mqtt"
-    const val MQTT_DEV_USERNAME : String = "admin"
-    const val MQTT_DEV_PASSWORD : String ="public"
-    const val MQTT_DEV_CLIENT_ID : String ="web_android_spot"
+    const val MQTT_DEV : String = ""
+    const val MQTT_DEV_USERNAME : String = ""
+    const val MQTT_DEV_PASSWORD : String =""
+    const val MQTT_DEV_CLIENT_ID : String =""
 }
 
 fun returnMqttTopicNames(): ArrayList<String> {
